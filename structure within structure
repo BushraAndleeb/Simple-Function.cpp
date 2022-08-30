@@ -1,0 +1,19 @@
+#include<iostream>
+using namespace std;
+struct samrah
+{
+	int abc;
+};
+struct Aritish
+{
+	int length;
+	int width;
+	samrah ab;
+};
+int main()
+{
+	Aritish myvalue;
+	myvalue.length=10;
+	myvalue.width=30;
+	myvalue.ab.abc = 88;
+}
